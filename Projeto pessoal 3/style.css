@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    font-style:italic;
+    font-weight:normal;
+    font-size:1em;
+    font-family:'Work Sans', sans-serif;
+    background-image: linear-gradient(to top, white, violet, black);
+    background-attachment: fixed;
+}
+h1{
+    font: italic bold 2em 'Work Sans', sans-serif;
+    color:blueviolet;
+}
+h2{
+    font: italic bold 1 em 'Work Sans', sans-serif;
+    color: purple;
+}
+
+main{
+    background-color:white;
+    border-radius: 20px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/Ico.png" type="image/x-icon">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <h4><a href="pag004.html" target="_self" rel="next">Siga para a página final depois de ler as informações dessa.</a></h4>
+    <h1>Imagens dinâmicas - Página 03</h1>
+    <p>Para adicionar imagens dinâmicas, usamos a <big>TAG</big> &lt;source media&gt;</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fotom.png" type="image/png">
+        
+        <img src="imagens/fotog.png" alt="Foto flexível">
+    </picture>
+</body>
+</html>
